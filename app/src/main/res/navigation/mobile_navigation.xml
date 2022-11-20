@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.xonicsports_sportnews.ui.home.HomeFragment"
+        android:label="Tips"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.xonicsports_sportnews.ui.gallery.GalleryFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.xonicsports_sportnews.ui.slideshow.SlideshowFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/accountFragmentFragment"
+        android:name="com.xonicsports_sportnews.ui.home.AccountFragmentFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account_fragment" />
+    <dialog
+        android:id="@+id/validatePaymentFragment"
+        android:name="com.xonicsports_sportnews.ui.home.ValidatePaymentFragment"
+        android:label="fragment_validate_payment"
+        tools:layout="@layout/fragment_validate_payment" />
+</navigation>

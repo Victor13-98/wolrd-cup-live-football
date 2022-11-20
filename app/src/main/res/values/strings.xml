@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">World Cup Live Football</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sports App</string>
+    <string name="nav_header_subtitle">qsoftmobi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">TODO</string>
+    <string name="cancel">Cancel</string>
+    <string name="subscribe">Stream Live Scores</string>
+    <string name="_5_sure_odds_daily">5 Sure Odds Daily</string>
+    <string name="_7_day_access">7 Day Access</string>
+    <string name="ksh_100">Ksh 100</string>
+    <string name="basic_plan">Basic Plan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tips">Round 1</string>
+    <string name="results">Results</string>
+    <string name="account">Account</string>
+    <string name="paid_">If you have already paid, enter your payment phone number to access your account below</string>
+    <string name="how_to_buy">HOW TO BUY</string>
+    <string name="_1_go_to_safaricom_buy_goods_amp_services"><![CDATA[1. Go to Safaricom Buy Goods & Services]]></string>
+    <string name="click_here_to_copy_till_number">CLICK HERE TO COPY TILL NUMBER</string>
+    <string name="_2_enter_till_no">2. Enter Till No:</string>
+    <string name="_5204479">673808</string>
+    <string name="_3_enter_amount">3. Enter Amount:</string>
+    <string name="ksh_500">Ksh 500</string>
+    <string name="your_4_digit_pin">( Your 4 Digit PIN )</string>
+    <string name="click_here_if_already_paid">CLICK HERE IF ALREADY PAID</string>
+    <string name="_4_enter_your">4. Enter Your</string>
+    <string name="pin">PIN</string>
+    <string name="continue_button">CONTINUE</string>
+</resources>

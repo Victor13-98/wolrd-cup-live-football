@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/card_background"
+        android:backgroundTint="@color/toolbar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/plan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/header_text_card"
+            android:backgroundTint="@color/bg"
+            android:gravity="center_horizontal"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="20dp"
+            android:text="@string/basic_plan"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/plan_price"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:text="@string/ksh_100"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/how_to_card_bcakground"
+                android:backgroundTint="@color/bg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/access_days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:padding="2dp"
+                    style="@style/textDark"
+                    android:text="@string/_7_day_access"
+                    android:textSize="20sp" />
+
+                <TextView
+                    style="@style/textDark"
+                    android:id="@+id/odds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal"
+                    android:padding="2dp"
+                    android:text="@string/_5_sure_odds_daily"
+                    android:textSize="20sp" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subscribe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:layout_marginHorizontal="5dp"
+            android:layout_gravity="center"
+            android:paddingHorizontal="15dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/bg"
+            android:text="@string/subscribe"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</LinearLayout>

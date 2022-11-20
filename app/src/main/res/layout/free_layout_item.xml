@@ -1,0 +1,51 @@
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background" />
+<TableLayout
+    android:stretchColumns= "*"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow android:background="@color/bg" android:padding="10dp" android:layout_width="0dp">
+
+        <TextView
+            style="@style/textDark"
+            android:gravity="start"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:text="1/10/2022"
+            tools:ignore="SmallSp" />
+        <TextView
+            style="@style/textDark"
+            android:gravity="center_horizontal"
+            android:id="@+id/fixture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:text="RB Leipzig – Bochum"
+            tools:ignore="SmallSp" />
+        <TextView
+            style="@style/textDark"
+            android:gravity="end"
+            android:id="@+id/prediction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:text="Over 1.5"
+            tools:ignore="SmallSp" />
+    </TableRow>
+</TableLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

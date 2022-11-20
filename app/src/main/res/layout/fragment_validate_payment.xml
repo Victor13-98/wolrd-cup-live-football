@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.ValidatePaymentFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="@drawable/how_to_card_bcakground"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENTER M-PESA CONFIRMATION MESSAGE BELOW" />
+
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/messageTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/text_view_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:hint="Paste Message Here"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="15"
+                android:scrollHorizontally="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/progress_bar_background"
+                android:background="@drawable/how_to_card_bcakground"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ProgressBar
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/progress_bar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/confirmed"
+                    android:layout_gravity="center"
+                    android:src="@drawable/check_mark"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+            </FrameLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.button.MaterialButton
+                android:visibility="gone"
+                android:gravity="center"
+                android:id="@+id/continue_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                android:text="@string/continue_button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/paste_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                android:text="PASTE"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:icon="@drawable/content_paste_go" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/validate_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_background"
+                android:text="VALIDATE"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:icon="@drawable/lock_open" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
